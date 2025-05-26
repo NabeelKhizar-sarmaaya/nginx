@@ -20,7 +20,7 @@ spec:
         - containerPort: 80
         resources:
           requests:
-            cpu: "100m"  # CPU request set to 50m
+            cpu: "50m"  # CPU request set to 50m
           limits:
             cpu: "50m"  # CPU limit set to 50m (so HPA can scale when it exceeds)
 
